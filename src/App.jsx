@@ -13,7 +13,7 @@ const App = (props) =>{
           greeting: event.target.value })}
         />
           <Button
-            pimary
+            secondary
             onClick={() => props.dispatch({ type: 'CHANGE_GREETING' })}
           >
           Change greeting
